@@ -265,6 +265,21 @@ a.btn_media.pa5{display:none;}
 	</style>	
 
 <body>
+		<div id="login-modal">
+			<div id="loginForm" class="modal">
+				<div class="lg-logo"></div>
+				<p class="lg-title">手机号登入</p>
+				<input type="text" id="username" placeholder="请输入姓名">
+				<input type="text" id="phonenumber" placeholder="请输入手机号">
+				<input type="button" id="lg-btn" class="loginButton" value="登录" onclick="submit();" />
+			</div>
+		</div>
+		<a id="loginButton" href="#loginForm" class="loginButton" rel="modal:open">Open Modal</a>
+		<div id="custom-overlay" class="loading-shown">
+		  <div class="loading-spinner">
+			Custom loading...
+		  </div>
+		</div>
 <div class="wrap">
 	<div id="header">    	<div class="topbar">
         	<a href="javascript:;" class="h5_logo">logo</a>
@@ -525,21 +540,7 @@ a.btn_media.pa5{display:none;}
 </div>
 </div>
 
-		<div id="login-modal">
-			<div id="loginForm" class="modal">
-				<div class="lg-logo"></div>
-				<p class="lg-title">手机号登入</p>
-				<input type="text" id="username" placeholder="请输入姓名">
-				<input type="text" id="phonenumber" placeholder="请输入手机号">
-				<input type="button" id="lg-btn" class="loginButton" value="登录" onclick="submit();" />
-			</div>
-		</div>
-		<a id="loginButton" href="#loginForm" class="loginButton" rel="modal:open">Open Modal</a>
-		<div id="custom-overlay" class="loading-shown">
-		  <div class="loading-spinner">
-			Custom loading...
-		  </div>
-		</div>
+
 
 
 
@@ -548,7 +549,6 @@ a.btn_media.pa5{display:none;}
 
 <script src="./h5index_files/tabs.min.js" charset="gbk"></script>
 <script src="./h5index_files/txplayer.js"></script>
-<script src="./h5index_files/jquery-1.11.3.min.js"></script>
 <script src="./h5index_files/v1.2.js" charset="UTF-8"></script>
 <script src="./h5index_files/swiper-3.4.2.min.js"></script> 
 <script>
