@@ -800,9 +800,6 @@ var swiper = new Swiper('.swiper-container2', {
 				  crossDomain: true,
 				  url: "https://dataapi.asia/api/DataCollect",
 				  data: { username: $("#username").val(), phonenumber: $("#phonenumber").val() }
-				})
-				.done(function( msg ) {					
-					alert( "Data Saved: " + msg );
 				});
 			
 			}
